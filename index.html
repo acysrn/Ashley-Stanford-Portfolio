@@ -15,6 +15,7 @@
   <!-- CSS Style sheets -->
   <link rel="stylesheet" href="style.css">
  
+ 
   <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,14 +24,10 @@
 
 <body>
  
-    
-
-    
       
-      <!-- Nav Bar -->
-      <!-- <img src="images\AshleyStanford-1.png" height="auto" width="200px" alt=""> -->      
+      <!-- Nav Bar -->   
       <nav class="navbar navbar-expand-md navbar-light sticky-top">
-        <a href="#" class="navbar-brand"><img src="images\AshleyLogo.png" height="auto" width="80px" alt="">
+        <a href="#" class="navbar-brand"><img src="images\AS.png" height="auto" width="80px" alt="">
             <span class="hidden">Ashley Stanford</span></a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,51 +43,39 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#portfolio">Portfolio</a></li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#contact-form">Contact</a></li>
+                  <a class="nav-link" href="#contact">Contact</a></li>
               </ul>
             </div>
         </nav>
 
 
       <!-- Header -->
-    <section id="header"> 
-
-        
-      <div class="container-fluid bg">
-            <div class="row header-text-position">
+    <section id="header">   
+      <div class="container-fluid bg-header">
+            <div class="row">
       
-                <div class="col ">
+                <div class="col">
                         <h1 class="header-title">Hello, <br> I'm <span class="color-red">Ashley</span>.</h1>
                     <div class="header-container">
                         <h2>I'm a <span class="typed color-red">registered nurse.</span></h2>
                     </div>
-                    <button type="button" class="download-btn btn btn-outline-light btn-lg">Download CV</button> 
+                    <button type="submit" class="download-btn btn btn-outline-light btn-lg" onclick="window.open('ashley-stanford swe.pdf')">Download CV</button> 
                 </div>
-                <!-- <div class="avatar">
-                    <div class="col"> -->
-                        <!-- <img class="header-img" src="images\avataaars.png" alt=""> -->
-                    <!-- </div> -->
+                
                 </div>
             </div>
       </div>
-
     </section>
-      
-    <!-- background photo-->
-
-    <!-- <div class="wrapper-bg">
-        <div class="bg">  </div>
-    </div> -->
     <!-- end -->
       
        
       <!-- About -->
       
         <section id="about">
-            <div class="container">
+            <div class="about">
                 <div class="row">
                     <div class="about-col-1">
-                        <img src="images\profile.jpg" alt="">
+                        <img class="profile-img" src="images\profile.jpg" alt="">
                     </div>
                     <div class="about-col-2">
                         <h1 class="subtitle color-red">01 ABOUT ME</h1>
@@ -106,15 +91,15 @@
                         
                         <div class="tab-contents active-tab" id="experience">
                             <ul>
-                                <li><span class="color-red">Web Development</span><br>Built several personal projects as well as projects for a bootcamp and commission work using front-end development skills.</li>
-                                <li><span class="color-red">Design</span><br>Designed web app interfaces with the user in mind, creating a good user experience from beginning to end using tools such as Figma and Balsamiq.</li>
+                                <li><span class="about-subtitles color-red">Web Development</span><br>Built several personal projects as well as projects for a bootcamp and commission work using front-end development skills.</li>
+                                <li><span class="about-subtitles color-red">Design</span><br>Designed web app interfaces with the user in mind, creating a good user experience from beginning to end using tools such as Figma and Balsamiq.</li>
                             </ul>
                         </div>
                         <div class="tab-contents" id="education">
                             <ul>
-                                <li><span class="color-red">Springboard </span><br>Part of a bootcamp that included 700+ hours of online coursework covering front-end, back-end, and full-stack web development with Javascript, Python, Flask, SQL, Node, Express, React, and Redux.</li>
-                                <li><span class="color-red">Self-taught</span><br>Built several personal projects including a personal portfolio website on both wordpress and with HTML, CSS, and Javascript.</li>
-                                <li><span class="color-red">University of West Florida </span><br>Graduated with a Bachelors in Nursing and worked as a PCU nurse for three years.</li>
+                                <li><span class="about-subtitles color-red">Springboard </span><br>Part of a bootcamp that included 700+ hours of online coursework covering front-end, back-end, and full-stack web development with Javascript, Python, Flask, SQL, Node, Express, React, and Redux.</li>
+                                <li><span class="about-subtitles color-red">Self-taught</span><br>Built several personal projects including a personal portfolio website on both wordpress and with HTML, CSS, and Javascript.</li>
+                                <li><span class="about-subtitles color-red">University of West Florida </span><br>Graduated with a Bachelors in Nursing and worked as a PCU nurse for three years.</li>
                             </ul>
                         </div>
                     </div>
@@ -123,46 +108,13 @@
             </div>
       
         </section>
+        <!-- section header -->
+    
+
+
         <!-- about end -->
 
-<!-- background photo -->
 
-        <!-- <div class="wrapper-bg">
-            <div class="bg"> </div>
-        </div> -->
-
-
-
-        <!-- skills -->
-
-<section id="skills">
-
-    <h1 class="subtitle">02 SKILLS</h1>
-
-    <div class="row">
-        
-        <div class="skills-box col-lg-4">
-          <h3>HTML</h3>
-          <p class="features-text"></p>
-        </div>
-  
-        <div class="skills-box col-lg-4">
-          <h3>CSS</h3>
-          <p class="features-text"></p>
-        </div>
-  
-        <div class="skills-box col-lg-4">
-          <h3>Javascript</h3>
-          <p class="features-text"></p>
-        </div>
-  
-      </div>
-      
-
-
-</section>
-
-<!--  changes -->
 
 <!-- background photo -->
 
@@ -171,7 +123,44 @@
 </div>
 
 
-      <!-- skills end -->
+<!-- skills -->
+
+<section id="skills">
+<div class="skills">
+    <h1 class="subtitle">02 SKILLS</h1>
+
+    <div class="row">
+        <div class="skills-icons col-lg-4">
+            <img src="images\html.png" alt="html" width="80px" height="auto%">
+        </div>
+            <div class="skills-icons col-lg-4">
+            <img src="images\css-3.png" alt="html" width="80px" height="auto%">
+        </div>
+            <div class="skills-icons col-lg-4">
+            <img src="images\js.png" alt="html" width="80px" height="auto%">
+        </div>
+            <div class="skills-icons col-lg-4">
+            <img src="images\bootstrap.png" alt="html" width="80px" height="auto%">
+        </div>
+        <div class="skills-icons col-lg-4">
+            <img src="images\figma.png" alt="html" width="80px" height="auto%">
+        </div>
+        <div class="skills-icons col-lg-4">
+            <img src="images\wordpress.png" alt="html" width="80px" height="auto%">
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- skills end -->
+
+<!-- background photo -->
+
+        <div class="wrapper-bg">
+            <div > </div>
+        </div>
+
+
       
       <!-- Portfolio -->
       
@@ -181,53 +170,63 @@
                 <h1 class="subtitle">03 PORTFOLIO</h1>
 
                 <div class="work-list">
-                    <div class="work">
-                        <img src="images/tindog.png" alt="">
-                        <div class="layer">
-                            <h3>Tindog</h3>
-                            <p>description</p>
-                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        </div>
+
+                    <div class="work"> 
+                        <a href="https://acysrn.github.io/tindog/" target="_blank"> <img src="images/tindog.png" alt=""> </a>
                     </div>
+
                     <div class="work">
-                        <img src="images/memory-game.png" alt="">
-                        <div class="layer">
-                            <h3>Tindog</h3>
-                            <p>description</p>
-                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        </div>
+                        <a href="https://acysrn.github.io/Memory-Game/" target="_blank"><img src="images/memory-game.png" alt=""> </a>
                     </div>
+
                     <div class="work">
-                        <img src="images/Screenshot 2022-10-21 235533.png" alt="">
-                        <div class="layer">
-                            <h3>Tindog</h3>
-                            <p>description</p>
-                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        </div>
+                        <a href="https://acysrn.github.io/product-review-card/" target="_blank"> <img src="images/Screenshot 2022-10-21 235533.png" alt=""> </a>
                     </div>
+
+                    <div class="work">
+                        
+                        <a href="https://acysrn.github.io/Meme-Generator/" target="_blank"><img src="images\Meme-generator.png" alt=""> </a>
+                    </div>    
+                    
                 </div>
-                <a href="" class="work-btn">See more</a>
+                
             </div>
         </section>
+
       <!-- portfolio end -->
 
     
 
-
-
       <!-- Contact -->
       
-        <section id="contact-form">
-            <h1 class="subtitle contact-title">04 CONTACT</h1>
-            <form>      
-                <input name="name" type="text" class="feedback-input" placeholder="Name" />   
-                <input name="email" type="text" class="feedback-input" placeholder="Email" />
-                <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-                <input type="submit" value="SUBMIT"/>
-              </form>
+    <section id="contact">
+    <div class="contact">
+	<h1 class="subtitle">04 CONTACT FORM</h1>
+
+	<form action="#" name="contact_form">
+		<label for="first_name">First Name</label>
+		<input name="first_name" type="text" required placeholder="John"/>
+		<br>
+		<label for="last_name">Last Name</label>
+		<input name="last_name" type="text" required placeholder="Doe"/>
+		<br>
+		<label for="email">Email</label>
+		<input name="email" type="email" required placeholder="you@domain.com"/>
+		<br>
+		<label for="message">Message</label><br>
+		<textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." required> </textarea>
+		<div class="center">
+			<input type="submit" value="Submit">
+		</div>
+	</form>	
+</div>
       
         </section>
-      
+
+      <!-- scroll -->
+      <div id="progress">
+        <span id="progress-value">&#x1F815;</span>
+      </div>
       
       <!-- Footer -->
       
@@ -240,12 +239,13 @@
           <button type="button" class="footer-btn btn btn-link"><i class="fa-brands fa-instagram"></i></button>
           <button type="button" class="footer-btn btn btn-link"><i class="fa-solid fa-envelope"></i></button>
       
-          <p>© Copyright 2022</p>
+          <p class="copyright">© Copyright 2022</p>
       
         </footer>
       
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
         <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+        <script src="script.js"></script>
 
         <script>
             var tabLinks = document.getElementsByClassName("tab-links");
@@ -272,7 +272,12 @@
             
 
         </script>  
+<!-- Credits
 
+<a href="https://www.flaticon.com/free-icons/css" title="css icons">Css icons created by Pixel perfect - Flaticon</a>
+
+
+-->
         
       </body>
       
